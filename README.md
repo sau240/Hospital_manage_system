@@ -1,59 +1,122 @@
-<img width="3999" height="2615" alt="image" src="https://github.com/user-attachments/assets/d72b94c0-913b-4497-926b-e56ec2d0cffa" />
+# 🏥 Hospital Management System
 
+A **Full Stack Hospital Management System** built to manage doctor availability, patient consultations, slot scheduling, and automated email notifications using a modern **MERN architecture**.
 
-**🏗 Architecture**
-OverviewThe project follows a decoupled Client-Server architecture to ensure scalability and ease of maintenance.💻 Frontend (React.js)Interactive UI: Built with functional components and React Hooks (useState, useCallback).
-**Key Components:**
-**DoctorDashboard:** Central hub for doctor activity and ID generation.
-**PatientList:** Real-time display of patient queues and appointment statuses.
-**AssignSlots:** A streamlined modal interface for scheduling.
-**Networking:** API communication handled via Axios with integrated error handling.
+---
 
-**⚙️ Backend (Node.js & Express)RESTful API:**
-Structured endpoints for CRUD operations on doctors, patients, and slots.
-**Communication:** Integrated Nodemailer for automated transactional emails.
-**Data Modeling:** Mongoose schemas ensure data integrity and type safety for MongoDB.🗄 Database (MongoDB)Doctor Schema: Tracks credentials, specializations, and availability status.Consultation Schema: Links doctors and patients with specific time slots and statuses.
+## 💫 About Project
+This project simplifies hospital workflows by allowing doctors to manage consultations efficiently while keeping patients informed automatically.
 
-**🛠 Tools & TechnologiesLayerTechnologyPurposeFrontendReact.js**
-Component-based UIBackendNode.js /
-ExpressServer-side logic & 
-APIDatabaseMongoDBNoSQL document storageODMMongooseSchema-based data 
-modelingMailingNodemailerAutomated email notificationsRequestAxiosFrontend-to-Backend HTTP requests
+- 🧑‍⚕️ Doctor & patient management
+- 📅 Slot-based consultation scheduling
+- 📧 Automated email notifications
+- ⚡ Scalable client–server architecture
 
+---
 
-**📁 Project StructurePlaintextroot/**
+## 🏗 Architecture
+
+### 💻 Frontend (React.js)
+- Functional components with React Hooks
+- Axios for API communication
+- Clean and modular UI
+
+**Key Components**
+- **DoctorDashboard** – Doctor activity hub & ID generation
+- **PatientList** – Displays patient queue & status
+- **AssignSlots** – Slot assignment modal
+
+---
+
+### ⚙️ Backend (Node.js & Express)
+- RESTful APIs for doctors, patients & consultations
+- Nodemailer for automated emails
+- Secure routing & validation
+
+---
+
+### 🗄 Database (MongoDB)
+- NoSQL document storage
+- Schema validation with Mongoose
+
+**Schemas**
+- **Doctor** – Credentials, specialization, availability
+- **Consultation** – Patient, doctor, slot, status
+
+---
+
+## 💻 Tech Stack
+
+### 🚀 Core
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+![MongoDB](https://img.shields.io/badge/mongodb-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+
+### 🛠 Tools
+![Axios](https://img.shields.io/badge/axios-671ddf?style=for-the-badge&logo=axios&logoColor=white)
+![Mongoose](https://img.shields.io/badge/mongoose-880000?style=for-the-badge)
+![Nodemailer](https://img.shields.io/badge/nodemailer-0A66C2?style=for-the-badge)
+![Git](https://img.shields.io/badge/git-F05033?style=for-the-badge&logo=git&logoColor=white)
+
+---
+
+## 📁 Project Structure
+```plaintext
 root/
-├── server/               # Backend logic
-│   ├── routes/           # API Endpoints
-│   ├── models/           # Mongoose Schemas
-│   ├── utils/            # Helper functions (Email, etc.)
-│   └── server.js         # Entry point
-└── client/               # Frontend logic
+├── server/
+│   ├── routes/
+│   ├── models/
+│   ├── utils/
+│   └── server.js
+└── client/
     ├── src/
-    │   ├── components/   # Reusable UI elements
+    │   ├── components/
     │   └── DoctorDashboard.js
     └── package.json
-    
-**⚡ Key Features✅ Doctor Management:** 
-Create and toggle active status for medical staff.
-**🩺 Patient Workflow:** Easy registration and consultation application process.
-**📅 Slot Assignment:** Intuitive dashboard for doctors to confirm time slots.
-**📧 Auto-Notifications:** Instant email alerts to patients upon slot confirmation.
-**📊 Status Tracking:** Real-time updates on consultation progress.
-**🚀 How to Run LocallyPrerequisitesNode.js** (v14+)MongoDB installed and runningGit1. 
 
-**Clone the RepositoryBashgit clone https://github.com/your-username/your-repo-name.git
-**cd your-repo-name
-2. Setup BackendBashcd server
+Key Features
+
+✅ Doctor creation & availability control
+
+🩺 Patient consultation workflow
+
+📅 Slot assignment dashboard
+
+📧 Automated email notifications
+
+📊 Real-time consultation status
+
+🚀 How to Run Locally
+Prerequisites
+
+Node.js (v14+)
+
+MongoDB
+
+Git
+
+1️⃣ Clone Repository
+git clone https://github.com/your-username/hospital-management-system.git
+cd hospital-management-system
+
+2️⃣ Backend Setup
+cd server
 npm install
-# Ensure your MongoDB URI is configured in server.js or a .env file
 node server.js
-3. Setup FrontendBashcd client
 
+3️⃣ Frontend Setup
+cd client
 npm install
 npm start
 
-**📧 ContactDeveloped by Saurav.**                        
+📸 Screenshot
+<img width="100%" src="https://github.com/user-attachments/assets/d72b94c0-913b-4497-926b-e56ec2d0cffa" />
+📬 Contact
 
-For queries, contributions, or feedback,
-please reach out via:Email: sv695177@gmail.com
+Developed by Saurav
+
+📧 Email: sv695177@gmail.com
+
+💼 LinkedIn: https://linkedin.com/in/www.linkedin.com/in/saurav-rai-m-3a3861396
+
