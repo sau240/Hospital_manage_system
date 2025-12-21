@@ -22,14 +22,15 @@ modelingMailingNodemailerAutomated email notificationsRequestAxiosFrontend-to-Ba
 
 
 **📁 Project StructurePlaintextroot/**
-├── server/                 # Backend logic
-│   ├── routes/             # API Endpoints
-│   ├── models/             # Mongoose Schemas
-│   ├── utils/              # Helper functions (Email, etc.)
-│   └── server.js           # Entry point
-└── client/                 # Frontend logic
+root/
+├── server/               # Backend logic
+│   ├── routes/           # API Endpoints
+│   ├── models/           # Mongoose Schemas
+│   ├── utils/            # Helper functions (Email, etc.)
+│   └── server.js         # Entry point
+└── client/               # Frontend logic
     ├── src/
-    │   ├── components/     # Reusable UI elements
+    │   ├── components/   # Reusable UI elements
     │   └── DoctorDashboard.js
     └── package.json
     
@@ -52,7 +53,7 @@ node server.js
 npm install
 npm start
 
-**📧 ContactDeveloped by Saurav.**
+**📧 ContactDeveloped by Saurav.**                        
 
 For queries, contributions, or feedback,
 please reach out via:Email: sv695177@gmail.com
