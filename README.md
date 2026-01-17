@@ -47,3 +47,28 @@ root/
     │   ├── components/   # Chatbot.jsx (AI UI), Navbar.jsx, Dashboard components
     │   └── App.js        # Main layout and persistent routing
     └── package.json
+```
+🚀 How to Run Locally
+1️⃣ Clone Repository
+Bash
+
+git clone [https://github.com/sau240/chal-be.git](https://github.com/sau240/chal-be.git)
+cd HospitalManagement
+2️⃣ Backend Setup
+Bash
+
+cd server
+npm install
+# Create a .env file and add:
+# GEMINI_KEY=your_google_api_key_here
+node index.js
+3️⃣ Frontend Setup
+Bash
+
+cd doctor-dashboard
+npm install
+npm start
+📸 Preview
+<img width="100%" src="https://github.com/user-attachments/assets/d72b94c0-913b-4497-926b-e56ec2d0cffa" />
+
+Developed by Saurav 📧 sv695177@gmail.com | 💼 LinkedIn
