@@ -47,7 +47,7 @@ root/
     │   ├── components/   # Chatbot.jsx (AI UI), Navbar.jsx, Dashboard components
     │   └── App.js        # Main layout and persistent routing
     └── package.json
-```
+
 🚀 How to Run Locally
 1️⃣ Clone Repository
 Bash
